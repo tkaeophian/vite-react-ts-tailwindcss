@@ -5,9 +5,8 @@ import { useLocalStorage } from '@/hooks/useLocalStorage';
 
 const authPrefix = 'AUTH_TOKEN';
 function authRequestInterceptor(config: AxiosRequestConfig): any {
-  
   const { getItem } = useLocalStorage();
-  const token = getItem(authPrefix)
+  const token = getItem(authPrefix);
   if (token) {
     (config.headers as AxiosHeaders).set('authorization', `${token}`);
   }
@@ -24,9 +23,7 @@ export const axios = Axios.create({
 
 axios.interceptors.request.use(authRequestInterceptor);
 axios.interceptors.response.use(
-  (response) => {
-    return response.data;
-  },
+  (response) => response.data,
   (error) => {
     const message = error.response?.data?.message || error.message;
     console.log(message);

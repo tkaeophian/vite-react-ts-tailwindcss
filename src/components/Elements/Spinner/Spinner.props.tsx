@@ -1,4 +1,4 @@
-import { sizes, variants } from './Spinner'
+import { sizes, variants } from './Spinner';
 
 export type SpinnerProps = {
   size?: keyof typeof sizes;

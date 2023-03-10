@@ -6,6 +6,5 @@ export type LoginCredentialsDTO = {
   password: string;
 };
 
-export const loginWithEmailAndPassword = (data: LoginCredentialsDTO): Promise<UserResponse> => {
-  return axios.post('/auth/login', data);
-};
+export const loginWithEmailAndPassword = (data: LoginCredentialsDTO): Promise<UserResponse> =>
+  axios.post('/auth/login', data);

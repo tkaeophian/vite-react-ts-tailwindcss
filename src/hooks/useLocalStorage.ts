@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 const storagePrefix = `${import.meta.env.VITE_APP_NAME}_react_`;
 
 export const useLocalStorage = () => {
@@ -8,7 +9,6 @@ export const useLocalStorage = () => {
     localStorage.setItem(`${storagePrefix}_${key}`, value);
     setValue(value);
   };
-
 
   const getItem = (key: string) => {
     const value = localStorage.getItem(`${storagePrefix}_${key}`);
@@ -21,5 +21,10 @@ export const useLocalStorage = () => {
     setValue(null);
   };
 
-  return { value, setItem, getItem, removeItem };
+  return {
+    value,
+    setItem,
+    getItem,
+    removeItem,
+  };
 };
