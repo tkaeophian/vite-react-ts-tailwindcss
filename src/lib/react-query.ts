@@ -4,7 +4,6 @@ import {
   UseMutationOptions,
   UseQueryOptions,
 } from '@tanstack/react-query';
-
 import { AxiosError } from 'axios';
 import { Promisable } from 'type-fest';
 

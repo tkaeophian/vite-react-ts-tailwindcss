@@ -1,4 +1,5 @@
 import { UserResponse } from '../types';
+
 import { axios } from '@/lib/axios';
 
 export type RegisterCredentialsDTO = {
@@ -8,6 +9,5 @@ export type RegisterCredentialsDTO = {
   lastName: string;
 };
 
-export const signupWithEmailAndPassword = (data: RegisterCredentialsDTO): Promise<UserResponse> => {
-  return axios.post('/auth/register', data);
-};
+export const signupWithEmailAndPassword = (data: RegisterCredentialsDTO): Promise<UserResponse> =>
+  axios.post('/auth/register', data);

@@ -1,7 +1,9 @@
-import Landing from '@/pages/Landing/Landing';
+import { useRoutes } from 'react-router-dom';
+
 import { protectedRoutes } from './protected';
 import { publicRoutes } from './public';
-import { useRoutes } from 'react-router-dom';
+
+import Landing from '@/pages/Landing/Landing';
 
 export const AppRoutes = () => {
   const loggedIn = false;
