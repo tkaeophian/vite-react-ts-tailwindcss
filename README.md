@@ -9,6 +9,8 @@ React is an excellent tool for building front-end applications. It has a diverse
 
 This repo attempts to present a way of creating React applications using some of the best tools in the ecosystem with a good project structure that scales very well. Based on my vast experience working with different codebases, this architecture turns out to be the most effective.
 
+<img SRC="https://ik.imagekit.io/xbqs6c3wef/pitchfork__1__QXL1n_H9u.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678482974836" />
+
 ## Why Vite
 Vite is a build tool that bridges the gap between current and next-generation web development, providing a faster and more performant experience for developers and modern web projects.
 
