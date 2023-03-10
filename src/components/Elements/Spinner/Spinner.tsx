@@ -1,5 +1,5 @@
-import clsx from 'clsx';
 import { SpinnerProps } from './Spinner.props';
+import clsx from 'clsx';
 
 export const sizes = {
   sm: 'h-4 w-4',
