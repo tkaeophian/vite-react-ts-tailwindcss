@@ -45,7 +45,9 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "husky": "^8.0.3",
     "jsdom": "^21.1.0",
+    "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "tailwindcss": "^3.2.7",
     "typescript": "^4.9.3",
@@ -55,5 +57,10 @@
   },
   "jest": {
     "resetMocks": false
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "npm run lint"
+    ]
   }
 }
