@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import { SpinnerProps } from './Spinner.props';
 
 const sizes = {
   sm: 'h-4 w-4',
@@ -11,6 +10,12 @@ const sizes = {
 const variants = {
   light: 'text-white',
   primary: 'text-blue-600',
+};
+
+export type SpinnerProps = {
+  size?: keyof typeof sizes;
+  variant?: keyof typeof variants;
+  className?: string;
 };
 
 export const Spinner = ({ size = 'md', variant = 'primary', className = '' }: SpinnerProps) => {
