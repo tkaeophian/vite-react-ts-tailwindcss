@@ -1,3 +1,4 @@
+import { Transition } from '@headlessui/react';
 import {
   CheckCircleIcon,
   ExclamationCircleIcon,
@@ -5,9 +6,7 @@ import {
   XCircleIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline';
-
 import { Fragment } from 'react';
-import { Transition } from '@headlessui/react';
 
 const icons = {
   info: <InformationCircleIcon className="h-6 w-6 text-blue-500" aria-hidden="true" />,

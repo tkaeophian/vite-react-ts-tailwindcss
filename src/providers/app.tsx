@@ -1,12 +1,12 @@
-import * as React from 'react';
-
-import { ErrorBoundary } from 'react-error-boundary';
-import { HelmetProvider } from 'react-helmet-async';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import * as React from 'react';
+import { ErrorBoundary } from 'react-error-boundary';
+import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Notifications } from '@/components/Notifications';
+
 import { Button, Spinner } from '@/components/Elements';
+import { Notifications } from '@/components/Notifications';
 import { queryClient } from '@/lib/react-query';
 
 const ErrorFallback = () => (

@@ -1,7 +1,9 @@
-import * as React from 'react';
 import clsx from 'clsx';
-import { Spinner } from '@/components/Elements';
+import * as React from 'react';
+
 import { ButtonProps } from './Button.Props';
+
+import { Spinner } from '@/components/Elements';
 
 export const variants = {
   primary: 'bg-blue-600 text-white',

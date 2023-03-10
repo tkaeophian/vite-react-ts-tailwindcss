@@ -1,4 +1,5 @@
 import { UserResponse } from '../types';
+
 import { axios } from '@/lib/axios';
 
 export type LoginCredentialsDTO = {

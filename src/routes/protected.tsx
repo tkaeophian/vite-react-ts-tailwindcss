@@ -1,6 +1,6 @@
+import { Suspense } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 
-import { Suspense } from 'react';
 import { Spinner } from '../components/Elements';
 
 const App = () => (
