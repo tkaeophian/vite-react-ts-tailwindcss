@@ -1,4 +1,6 @@
-# Vite + React + TS + Tailwind
+# Vite + React + TS + Tailwind 
+
+[![CI](https://github.com/tkaeophian/vite-react-ts-tailwindcss/actions/workflows/ci.yml/badge.svg)](https://github.com/tkaeophian/vite-react-ts-tailwindcss/actions/workflows/ci.yml)
 
 A simple, scalable, and powerful architecture for building production ready React applications.
 
@@ -25,3 +27,13 @@ A major advantage of Tailwind CSS is that optimization can be performed using Pu
 ### Disclaimer
 
 This is not supposed to be a template, boilerplate or a framework. It is an opinionated guide that shows how to do some things in a certain way. You are not forced to do everything exactly as it is shown here, decide what works best for you and your team and stay consistent with your style.
+
+## Contributing
+
+Contributions are always welcome! If you have any ideas, suggestions, fixes, feel free to contribute. You can do that by going through the following steps:
+
+1. Clone this repo
+2. Create a branch: `git checkout -b your-feature`
+3. Make some changes
+4. Test your changes
+5. Push your branch and open a Pull Request
