@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 
 import { Spinner } from '../Spinner'
 
-describe('Button component tests', () => {
+describe('Spinner component tests', () => {
     
     it('should render the loading spinner', () => {
         render(<Spinner />);
