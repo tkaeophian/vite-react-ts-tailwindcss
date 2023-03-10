@@ -1,4 +1,4 @@
-const storagePrefix = 'food_react_';
+const storagePrefix = `${import.meta.env.VITE_APP_NAME}_react_`;
 
 const storage = {
   getToken: () => {
