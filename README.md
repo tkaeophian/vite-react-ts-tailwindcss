@@ -1,6 +1,6 @@
 # Vite + React + TS + Tailwind 
 
-[![CI](https://github.com/tkaeophian/vite-react-ts-tailwindcss/actions/workflows/ci.yml/badge.svg)](https://github.com/tkaeophian/vite-react-ts-tailwindcss/actions/workflows/ci.yml)
+[![CI](https://github.com/tkaeophian/vite-react-ts-tailwindcss/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tkaeophian/vite-react-ts-tailwindcss/actions/workflows/ci.yml)
 
 A simple, scalable, and powerful architecture for building production ready React applications.
 
