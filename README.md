@@ -11,6 +11,11 @@ This repo attempts to present a way of creating React applications using some of
 
 <img SRC="https://ik.imagekit.io/xbqs6c3wef/pitchfork__1__QXL1n_H9u.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678482974836" />
 
+## Table Of Contents
+
+[🔨 Best Practices](docs/best-practices.md)
+
+
 ## Why Vite
 Vite is a build tool that bridges the gap between current and next-generation web development, providing a faster and more performant experience for developers and modern web projects.
 
