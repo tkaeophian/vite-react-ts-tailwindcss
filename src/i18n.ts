@@ -11,7 +11,7 @@ i18next
     fallbackLng: 'en',
     debug: true,
     interpolation: {
-      escapeValue: false, 
+      escapeValue: false,
     },
   });
 

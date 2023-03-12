@@ -12,7 +12,7 @@ const Landing = () => {
   };
   return (
     <div className="App">
-      <div className='flex justify-center py-4'>
+      <div className="flex justify-center py-4">
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
@@ -22,8 +22,9 @@ const Landing = () => {
       </div>
       <h1>Vite + React</h1>
       <p className="py-4">{t('Landing.Description')}</p>
-      <div className='flex justify-center space-x-2'>
-        <Button onClick={() => changeLanguage('en')}>English</Button><Button onClick={() => changeLanguage('th')}>ภาษาไทย</Button>
+      <div className="flex justify-center space-x-2">
+        <Button onClick={() => changeLanguage('en')}>English</Button>
+        <Button onClick={() => changeLanguage('th')}>ภาษาไทย</Button>
       </div>
     </div>
   );
